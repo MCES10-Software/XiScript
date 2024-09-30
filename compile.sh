@@ -1,1 +1,1 @@
-gcc main.c -o XiScriptInterpreter
+g++ main.c -o XiScriptInterpreter
