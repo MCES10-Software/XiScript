@@ -6,7 +6,7 @@ Xi Script was previously known as EScript.
 
 #Running XiScript on your Computer (macOS only with some Linux support)
 ## Setting Up XiScript for execution on Mac and Linux:
-* run chmod u+x ./XiScriptInterpreter in the directory of the file. 
+* run <code>chmod u+x ./XiScriptInterpreter</code> in the directory of the file. 
 * Run <code>./XiScriptInterpreter</code> to test. 
 
 ## Setting Up as a terminal executable with ZSH on Mac:
