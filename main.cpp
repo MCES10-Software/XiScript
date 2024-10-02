@@ -110,6 +110,9 @@ void execute(char *line) {
                 case '*':
                     value *= operand;
                     break;
+                case '^':
+                    value ^= operand;
+                    break;
                 case '/':
                     if (operand == 0) {
                         printf("Error: Division by zero\n");
