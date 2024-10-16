@@ -9,7 +9,7 @@
 #define STACK_SIZE 100
 #define MAX_VARS 100
 #define MAX_VAR_NAME 32
-
+using namespace std;
 // Variable structure to hold name and value
 typedef struct {
     char name[MAX_VAR_NAME];
@@ -75,6 +75,7 @@ void execute(char *line) {
     if (strncmp(line, "print(", 6) == 0) {
         char *expr = line + 6;
         char *end = strchr(expr, ')');
+        string text = "";
         if (end) {
             *end = '\0';  // Null-terminate the expression
             printf("%d\n", evaluate_token(expr));
